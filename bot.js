@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === '2help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (!)**')
+        .setDescription('**برفكس البوت (2)**')
         .addField('2play', 'لتشغيل اغنية')
         .addField('2join', 'دخول رومك الصوتي')
         .addField('2disconnect', 'الخروج من رومك الصوتي')
